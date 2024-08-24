@@ -39,6 +39,8 @@ class RewardFactory {
 
     public static function delete(string $name): void {
         unset(self::$rewards[$name]);
+
+        DataManager::unsetData($name);
     }
 
     public static function exists(string $name): bool {
