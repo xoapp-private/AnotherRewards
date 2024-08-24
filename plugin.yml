@@ -1,0 +1,11 @@
+name: AnotherRewards
+main: xoapp\rewards\Loader
+api: 5.0.0
+version: 1.0.0
+author: Xoapp
+
+permissions:
+  another.rewards.command:
+    default: true
+  another.rewards.admin:
+    default: op
